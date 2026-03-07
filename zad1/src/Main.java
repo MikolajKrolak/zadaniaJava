@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import static java.lang.Math.*;
 
 public class Main {
@@ -13,6 +14,14 @@ public class Main {
         System.out.print(pow(c, 2));
 
         //zad3
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print('\n');
+        String napis1 = scanner.next();
+        String napis2 = scanner.next();
+
+        System.out.print('%' + napis2 + ' ' + napis1 + '%');
+
 
     }
 }
