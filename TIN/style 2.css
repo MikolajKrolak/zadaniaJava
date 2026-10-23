@@ -1,0 +1,112 @@
+body{
+    background-color: white
+}
+main{
+    display: flex;
+    background-color: rgb(127, 127, 127);
+}
+.left-div, .right-div{
+    background-color: white;
+    margin: 15px;
+    width: 50%;
+    padding: 10px;
+}
+.right-div{
+    align-self: flex-start;
+    margin-right: 2vw;
+}
+.main-menu{
+    padding: 0;
+}
+.main-menu a{
+    margin: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;   
+}
+.main-menu .sub-menu a{
+    margin: 0.2vw;
+    margin-right: 5vw;
+}
+#link-menu li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.two{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.three{
+    border-right: 1px solid grey;
+}
+#link-menu ul.main-menu ul.sub-menu {
+  padding: 0;
+}
+.sub-menu li:nth-child(2){
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.sub-menu li:nth-child(3){
+    border-bottom: 1px solid gray;
+}
+#link-menu ul.sub-menu {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 15vw;
+}
+footer p{
+    flex: 1;
+    border-left: 1px solid grey;
+    padding: 20px;
+}
+footer p:nth-child(1){
+    border-left: 0;
+}
+.main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  height: 2vw;
+  align-items: center;
+}
+.main-menu > li {
+  position: relative;
+}
+.sub-menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background: white;
+}
+.main-menu > li:hover .sub-menu {
+  display: block;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    color: rgb(147, 147, 147);
+}
+
+#link-menu a:link{
+  color: #0091ff !important;
+}
+#link-menu a:visited{
+  color: #551a8b !important;
+}
+th, td{
+    padding: 0.8vw;
+}
+ol > li{
+    padding: 0.8vw;
+    padding-left: o;
+}
